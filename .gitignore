@@ -1,0 +1,20 @@
+node_modules
+.next
+playwright-report
+test-results
+*.tsbuildinfo
+public/pdfjs
+pdf-assets/
+
+public/mupdf
+
+# Local credentials
+.env*
+!.env.example
+.dev.vars*
+
+.next-test/
+
+next-env.d.ts
+
+.DS_Store
