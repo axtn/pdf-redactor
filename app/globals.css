@@ -463,6 +463,7 @@ footer a {
   position: relative;
 }
 .footer-links {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -962,6 +963,9 @@ footer a {
     flex-direction: column;
     align-items: center;
     gap: 12px;
+  }
+  .privacy-policy {
+    position: static;
   }
   .privacy-policy p {
     right: 50%;
